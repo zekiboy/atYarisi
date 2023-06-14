@@ -1,0 +1,166 @@
+#div1
+{
+    /* margin-top: 25px; */
+    background-color: green;
+    border: 2px solid;
+}
+img
+{
+    height: 75px;
+    width: 75px;
+    transition: all 2s;
+
+}
+#bitis
+{
+    float: right;
+    background: black;
+    width: 10px;
+    height: 465.5px;
+    margin-right: 10px;
+}
+#baslat
+{
+    width: 100px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:blueviolet;
+    border-radius:10px;
+    border: none;
+}
+#baslat:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+body
+{
+    background-color:darkgoldenrod;
+}
+.bahisAlani
+{
+    /* margin-bottom: 20px; */
+
+}
+.bahis
+{
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 3px solid;
+    background-color: #E0CE02
+}
+.ganyanTablo 
+{
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.ganyanBaslik
+{
+    font-size: larger;
+}
+#ganyanKutu
+{
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #E0CE02;
+}
+#ganyanKutu:hover
+{
+    background-color: darkmagenta;
+    font-size: larger;
+    width: 250px;
+}
+
+#bahisKoduKutu
+{
+    height: 30px;
+    width: 75px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #E0CE02;
+}
+#bahisKoduKutu:hover
+{
+    background-color: darkmagenta;
+    font-size: larger
+}
+
+#bahisButon
+{
+    height: 30px;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#bahisButon:hover
+{
+    background-color: darkmagenta;
+}
+
+#bahisTutari
+{
+    margin-left: 50px;
+}
+#bakiyeGuncelle
+{
+    height: 30px;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#bakiyeGuncelle:hover
+{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.tribun
+{
+    width: 100%;
+    height: 350px;
+}
+.tribun img
+{
+    width: 100%;
+    height: 350px;
+}
+
+#btBaslik
+{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.oyunKurallari
+{
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    /* padding-bottom: 20px; */
+    /* padding-top: 20px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 3px solid;
+    background-color: #E0CE02
+}

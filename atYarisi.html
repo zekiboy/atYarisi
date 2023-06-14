@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At Yarışı</title>
+    <script src="deneme.js" defer></script> 
+    <link rel="stylesheet" href="atYarisi.css">
+</head>
+<body>
+    <div class="tribun">
+        <img id="tribunImg" src="pic/tribun.jpeg" alt="">
+    </div>    
+    <div id="div1">
+        <div id="bitis"></div>
+        <img id="atbir" src="pic/atgif1.gif">
+        <hr>
+        <img id="atiki" src="pic/atgif2.gif">
+        <hr>
+        <img id="atuc" src="pic/atgif1.gif">
+        <hr>
+        <img id="atdort" src="pic/atgif2.gif">
+        <hr>
+        <img id="atbes" src="pic/atgif1.gif">
+    </div>
+    <br>
+    <center>
+        <button id="baslat" onclick="Baslat()">Başla</button>
+    </center><br>
+    <center><div id="siralama"><b id="siralamaSonucu">**YARIŞ BAŞLIYOR**</b></div></center>
+    <br><br>
+    <div class="bahisAlani">
+        <div class="bahis">
+            <table class= "ganyanTablo" border="1px solid">
+                <tr class="ganyanBaslik">
+                    <th>Bahis Kodu</th>
+                    <th>At Adı</th>
+                    <th>Ganyan Oranı</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Erbatur</th>
+                    <th>1.20</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Drogba</th>
+                    <th>1.80</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Bob Akif</th>
+                    <th>1.40</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Aboubakar</th>
+                    <th>2.40</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <th>Sergen</th>
+                    <th>2.70</th>
+                </tr>
+            </table>
+            <br>
+            <button onclick="guncelle()" id="bakiyeGuncelle">Bakiye Güncelle</button>
+            <b>MEVCUT BAKİYE: </b>
+            <b id="mevcutBakiye">0</b><b> TL</b>
+            <br><br>
+            <b id="btBaslik">Bahis Tutarı</b>
+            <b id="bkBaslik">Bahis Kodu</b>
+            <br>
+            <input type="number" id="ganyanKutu">
+            <input type="number" id="bahisKoduKutu">
+            <button id="bahisButon" onclick="bahisYap()">Bahisi Onayla</button>
+            <br>
+            <b id="bahisTutari"></b>
+            <br>
+            <b id="bahisSonucu"></b>
+        </div>
+        <div class="oyunKurallari">
+           <center><H2>OYUN KURALLARI</H2></center>
+            <b>- İlk olarak hesap bakiyenize yükleme yapınız.</b><br><br>
+            <b>- Sonrasında bahis tutarınızı ve ganyan yapmak istediğiniz atın kodunu giriniz</b><br><br>
+            <b>- Eğer bakiyeniz yetersizse ganyan alınmayacaktır.</b><br><br>
+            <b>- Bahisinizi yatırdıktan sonra, "Başlat" butonu ile oyunu başlatabilirsiniz.</b><br><br>
+            <b>- 18 Yaşından küçüklerin oynaması yasaktır.</b><br><br>
+            <b>- Öneri ve Şikayetleriniz için lütfen iletişime geçin:  at@dıgıdık.com.tr</b><br><br>
+           <center> <img src="pic/kuralAti.png" alt=""></center>
+
+        </div>
+    
+    </div>
+</body>
+</html>
